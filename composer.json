@@ -1,0 +1,21 @@
+{
+    "name": "corycollier/testing-tools",
+    "description": "A set of tools to help with testing projects",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cory Collier",
+            "email": "corycollier@corycollier.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TestingTools\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
